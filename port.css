@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body{
     background-image: url("images/background.jpg");
     padding: auto;
@@ -6,11 +5,26 @@ body{
 
 header{
     background-image:url("images/bg.jpg");
-    height: 280px;
+    height: auto;
     width: 100%;
     position: relative;
 
+
 }
+ul#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+
+ul#nav>li {
+    float: left;
+}
+
+
 .head{
     text-align: center;
     font-size: 30px;
@@ -18,13 +32,11 @@ header{
     padding: 25px ;
     color: white;
     font-family: Arial;
-    top: 80%;
-
+    display: block;
     position: relative;
 }
 
 p>img{
-
     border-radius: 50%;
     height:50%;
     margin: 10px ;
@@ -40,46 +52,3 @@ footer> a:hover{
     background-color: bisque;
 
 }
-=======
-body{
-    background-image: url("images/background.jpg");
-    padding: auto;
-}
-
-header{
-    background-image:url("images/bg.jpg");
-    height: 280px;
-    width: 100%;
-    position: relative;
-
-}
-.head{
-    text-align: center;
-    font-size: 30px;
-    text-decoration: none;
-    padding: 25px ;
-    color: white;
-    font-family: Arial;
-    top: 80%;
-
-    position: relative;
-}
-
-p>img{
-
-    border-radius: 50%;
-    height:50%;
-    margin: 10px ;
-    position: relative;
-}
-footer>a{
-    text-decoration: none;
-    color: burlywood;
-    font-size: 25px;
-    font-family: "Arial Black";
-}
-footer> a:hover{
-    background-color: bisque;
-
-}
->>>>>>> b89b97947eaa3e4c9e8cdf3d5b98d7eaba650a21
