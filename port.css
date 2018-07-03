@@ -1,4 +1,3 @@
-
 body{
     background-image: url("images/background.jpg");
     padding: auto;
@@ -6,24 +5,11 @@ body{
 
 header{
     background-image:url("images/bg.jpg");
-    height: auto;
+    height: 280px;
     width: 100%;
     position: relative;
 
-
 }
-ul#nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-ul#nav>li {
-    float: left;
-}
-
-
 .head{
     text-align: center;
     font-size: 30px;
@@ -31,11 +17,13 @@ ul#nav>li {
     padding: 25px ;
     color: white;
     font-family: Arial;
-    display: block;
+    top: 80%;
+
     position: relative;
 }
 
 p>img{
+
     border-radius: 50%;
     height:50%;
     margin: 10px ;
